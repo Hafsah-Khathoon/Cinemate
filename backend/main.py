@@ -25,12 +25,15 @@ app = FastAPI(title="Cinemate Movie Recommendation API")
 # React frontend connection
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://cinemate-hafsah.vercel.app",
+        "https://cinemate-sandy.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 # Common function to communicate with TMDB
 def tmdb_request(endpoint, params=None):
