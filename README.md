@@ -69,7 +69,6 @@ Open `http://localhost:5173` in your browser.
 - **API Documentation:** [FastAPI Docs](https://cinemate-backend-m2xu.onrender.com/docs)
 
 ## 👩‍💻 Developer
-Hafsah Khathoon M.
 
 **Hafsah Khathoon M.**
 
